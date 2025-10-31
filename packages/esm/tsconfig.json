@@ -1,0 +1,13 @@
+{
+	"include": [
+		"src/**/*.ts"
+	],
+	"compilerOptions": {
+		"module": "node16",
+		"strict": true,
+		"declaration": true,
+		"esModuleInterop": true,
+		"rootDir": "src",
+		"outDir": "dist"
+	}
+}

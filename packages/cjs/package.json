@@ -1,0 +1,21 @@
+{
+  "name": "@tsx-test/cjs",
+  "packageManager": "yarn@4.10.3",
+  "exports": {
+    ".": {
+      "tsx": "./src/public/index.ts",
+      "node": "./dist/public/index.js",
+      "default": "./src/public/index.ts"
+    }
+  },
+  "imports": {
+    "#cjs/*.ts": {
+      "types": "./src/*.ts",
+      "node": "./dist/*.js",
+      "default": "./src/*.ts"
+    }
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

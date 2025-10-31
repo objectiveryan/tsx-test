@@ -1,0 +1,11 @@
+{
+  "name": "esm",
+  "type": "module",
+  "packageManager": "yarn@4.10.3",
+  "dependencies": {
+    "@tsx-test/cjs": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
