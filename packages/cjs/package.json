@@ -10,7 +10,6 @@
   },
   "imports": {
     "#cjs/*.ts": {
-      "types": "./src/*.ts",
       "node": "./dist/*.js",
       "default": "./src/*.ts"
     }
